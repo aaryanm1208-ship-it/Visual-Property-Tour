@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f0f2f5;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* --- UI Component Styles --- */
+.ui-component {
+    flex: 2;
+    padding: 30px;
+    border: 2px solid #ccc;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease; /* For smooth transitions */
+    min-height: 250px;
+}
+
+/* Styles for Step 1: Background Color */
+.step-1-style {
+    background-color: #e6f7ff; /* Light blue background */
+    border-color: #1890ff;
+}
+
+/* Styles for Step 2: Border Style */
+.step-2-style {
+    border-style: dashed;
+    border-width: 3px;
+    border-color: #ff4d4f; /* Red dashed border */
+}
+
+/* --- Tour Guide Styles --- */
+.tour-guide {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    border-left: 5px solid #0366d6; /* GitHub-like blue accent */
+}
+
+.tour-guide button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #0366d6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.tour-guide button:hover {
+    background-color: #005cc5;
+}
