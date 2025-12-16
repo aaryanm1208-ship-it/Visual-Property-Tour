@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Property Tour Concept</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="ui-component" id="my-component">
+            <h3>Component to Review</h3>
+            <p>This is the element whose visual properties are changing.</p>
+        </div>
+
+        <div class="tour-guide">
+            <h2>Visual Property Tour</h2>
+            <p id="tour-description">Click a step to see the corresponding visual property change and its description.</p>
+            
+            <hr>
+
+            <button onclick="applyStep(1)">
+                Step 1: Background Color Change
+            </button>
+            <button onclick="applyStep(2)">
+                Step 2: Border Style Update
+            </button>
+            <button onclick="resetTour()">
+                Reset Tour
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
